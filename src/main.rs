@@ -1,3 +1,6 @@
+extern crate clap;
+use clap::App;
+
 fn main() {
-    println!("Hello, world!");
+  let _ = App::new("fake").version("v1.0-beta").get_matches();
 }
