@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["Mok Ka Chun <mkc188@users.noreply.github.com>"]
 
 [dependencies]
-clap = "1"
-notify = "^2.3"
+clap = "^2.2.1"
+notify = "^2.5.4"
